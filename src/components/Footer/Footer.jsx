@@ -7,7 +7,7 @@ import {BsGithub} from "react-icons/bs"
 const Footer = () => {
   return (
     <footer>
-      <a href="#" className='footer_logo'>@tech.fujimoto</a>
+      <a href="#" className='footer_logo'>@marcosmoraisjr</a>
 
       <ul className='permalinks'>
         <li><a href="#">Home</a></li>
@@ -19,9 +19,9 @@ const Footer = () => {
       </ul>
 
       <div className="footer_socials">
-        <a href="https://www.instagram.com/tech.fujimoto/"><BsInstagram/></a>
-        <a href="https://www.linkedin.com/in/renato-fujimoto-1321b71b0/"><BsLinkedin/></a>
-        <a href="https://github.com/Renatofujimoto"><BsGithub/></a>
+        <a href="https://www.instagram.com/marcosmoraisjr/"><BsInstagram/></a>
+        <a href="https://www.linkedin.com/in/marcosmoraisjr/"><BsLinkedin/></a>
+        <a href="https://github.com/marcosmoraisjr"><BsGithub/></a> 
       </div>
       
     </footer>
