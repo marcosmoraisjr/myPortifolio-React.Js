@@ -1,6 +1,6 @@
 import {useState, useEffect} from 'react'
 import { Col, Container,Row } from 'react-bootstrap'
-import headerImg from "../../assets/header-img.svg"
+import headerImg from "../../assets/header-eva-e-wall.png"
 import "./Header.css"
 
 const Header = () => {
@@ -9,7 +9,7 @@ const Header = () => {
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index,setIndex] = useState(1);
-  const toRotate = [ "Front End Developer", "Web Designer", "UI/UX Designer" ];
+  const toRotate = [ "Desenvolvedor", "Back End", "Asp.Net" ];
   const period = 2000;
 
   useEffect(() => {
@@ -56,7 +56,7 @@ const Header = () => {
               <div>
                 <span className="tagline">Bem Vindo ao meu Portfolio</span>
                 <h1>{`Olá, eu sou um`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Front End Developer", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
-                  <p>Sou um desenvolvedor em constante aprendizado, fascinado em contribuir para o desenvolvimento de pessoas, proporcionar melhorias para o mundo tecnológico , adquirir e compartilhar conhecimentos..</p>
+                  <p>👋🏻 Estou em constante aprendizado, fascinado em contribuir para o desenvolvimento de pessoas, proporcionar melhorias para o mundo tecnológico e adquirir e compartilhar conhecimentos.</p>
               </div>
            
           </Col>
