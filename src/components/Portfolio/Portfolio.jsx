@@ -1,31 +1,48 @@
 import React from 'react'
 import "./Portfolio.css"
-import IMG1 from "../../assets/secret.png"
-import IMG2 from "../../assets/quiz.png"
-import IMG3 from "../../assets/netflix.png"
+import IMG1 from "../../assets/logo.png"
+import IMG2 from "../../assets/logo.png"
+import IMG3 from "../../assets/logo.png"
+import IMG4 from "../../assets/logo.png"
+import IMG5 from "../../assets/logo.png"
 
 const data = [
   {
     id:1,
     image: IMG1,
-    title: "Projeto Secret Word, abordando o hooks useStates para alterar os estados, useEffect para monitoramentos e useCallBack para resolver conflitos do useEffect, simulando um sistemas de rotas com a criação de diversos componentes",
-    github: "https://github.com/Renatofujimoto/secret-word",
-    demo:"https://secret-word-dun.vercel.app/"
+    title: "myCytomine - Implantação do sistema para anotação médica (CYTOMINE) e implementação de ferramenta computacional de identificação de fibrose intersticial para o projeto Pathospotter da Fiocruz.",
+    github: "link no GitHub",
+    demo:"https://pathospotter.bahia.fiocruz.br/"
   },
   {
     id:2,
     image: IMG2,
-    title: "Projeto Quiz, utilizando os hooks useReducer para gerenciamento de estados complexos e useContext para passar dados através da árvore de componentes e criação de componentes JSX do React",
-    github: "https://github.com/Renatofujimoto/Quiz",
-    demo: "https://quiz-seven-pi.vercel.app/"
+    title: "myGenerator - Desenvolvimento de um gerador de aplicações MVC em ASP.NET/SQL SERVER.",
+    github: "https://github.com/marcosmoraisjr/myGenerator",
+    demo:"https://site.vercel.app/"
   },
   {
     id:3,
     image: IMG3,
-    title: "Projeto Netflix Clone, utilizando os hooks useEffect para renderização do componente, consumindo a API the movie DB com o metodo fetch",
-    github: "https://github.com/Renatofujimoto/netflix-clone",
-    demo: "https://netflix-clone-xet8.vercel.app/"
+    title: "TOTVS - Liderança técnica na implantação do ERP WINTHOR, estabelecendo recorde de implantação mais rápida na TOTVS.",
+    github: "link no GitHub",
+    demo:"https://site.vercel.app/"
   },
+  {
+    id:4,
+    image: IMG4,
+    title: "Enterprise - Desenvolvimento e implantação de um portal corporativo, resultando em aumento de 30% na conversão e significativa melhoria na experiência do usuário.",
+    github: "https://github.com/marcosmoraisjr/myEnterprise",
+    demo:"https://site.vercel.app/"
+  },
+  {
+    id:5,
+    image: IMG5,
+    title: "Gênesis - Participação ativa no desenvolvimento do sistema gerencial para laboratórios de análises clínicas",
+    github: "link no GitHub",
+    demo:"http://www.reffit.com.br/"
+  },
+ 
 
 ]
 
