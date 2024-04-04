@@ -13,15 +13,15 @@ const Contact = () => {
           <article className="contact_option">
             <MdEmail className='contact_option-icon'/>
             <h4>Email</h4>
-            <h5>renatofujimoto2@gmail.com</h5>
-            <a href="mailto:renatofujimoto2@gmail.com" target="_blank" rel="noreferrer">Enviar email</a>
+            <h5>mmstec@gmail.com</h5>
+            <a href="mailto:mmstec@gmail.com" target="_blank" rel="noreferrer">Enviar email</a>
           </article>
 
           <article className="contact_option">
             <BsWhatsapp className='contact_option-icon'/>
             <h4>WhatsApp</h4>
-            <h5>(11) 973810368</h5>
-            <a href="https://api.whatsapp.com/send/?phone=5511973810368&text&app_absent=0" target="_blank" rel="noreferrer">Enviar mensagem</a>
+            <h5>(73) 98102-3484</h5>
+            <a href="https://api.whatsapp.com/send/?phone=5573981023484&text&app_absent=0" target="_blank" rel="noreferrer">Enviar mensagem</a>
           </article>
 
         </div>
