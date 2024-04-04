@@ -8,42 +8,19 @@ const Services = () => {
       <h2>Serviços</h2>
 
       <div className="container services_container">
-        <article className='service'>
-          <div className="service_head">
-            <h3>Web</h3>
-          </div>
-
-          <ul className='service_list'>
-            <li>
-              <CgCheckO className='service_list-icon'/>
-              <p>Landing Page</p>
-            </li>
-            <li>
-              <CgCheckO className='service_list-icon'/>
-              <p>App Desktop</p>
-            </li>
-          </ul>
-        </article>
-
-        {/* end web */}
         
         <article className='service'>
           <div className="service_head">
-            <h3>UX / UI</h3>
+            <h3>Consultoria</h3>
           </div>
-
           <ul className='service_list'>
             <li>
               <CgCheckO className='service_list-icon'/>
-              <p>Design System</p>
+              <p>TOTVS</p>
             </li>
             <li>
               <CgCheckO className='service_list-icon'/>
-              <p>Figma</p>
-            </li>
-            <li>
-              <CgCheckO className='service_list-icon'/>
-              <p>Canva</p>
+              <p>Processos</p>
             </li>
           </ul>
         </article>
@@ -61,6 +38,33 @@ const Services = () => {
             </li>       
           </ul>
         </article>
+
+        <article className='service'>
+          <div className="service_head">
+            <h3>Aulas</h3>
+          </div>
+          <ul className='service_list'>
+            <li>
+              <CgCheckO className='service_list-icon'/>
+              <p>Algoritimos</p>
+            </li>       
+            <li>
+              <CgCheckO className='service_list-icon'/>
+              <p>Linguagem de Programação</p>
+            </li>    
+            <li>
+              <CgCheckO className='service_list-icon'/>
+              <p>Gestão de Projetos</p>
+            </li>     
+            <li>
+              <CgCheckO className='service_list-icon'/>
+              <p>Entre em contato</p>
+            </li>            
+          </ul>
+        </article>
+          {/* end web */}
+
+
 
       </div>
     </section>
