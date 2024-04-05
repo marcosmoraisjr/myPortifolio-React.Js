@@ -1,6 +1,6 @@
 import React from 'react'
 import "./About.css"
-import ME from "../../assets/perfil2.jpg"
+import ME from "../../assets/perfil.jpg"
 //import {FaAward} from "react-icons/fa"
 //import {FaFolderOpen} from "react-icons/fa"
 import CTA from './CTA'
@@ -39,51 +39,7 @@ const About = () => {
             
             {/*}Botão baixar CV{*/}
             <CTA/>
-     
-
-{/*}
-            <article className="about_card">
-              <FaAward className='about_icon'/>
-              <h5>Certificações</h5>
-              <ul>
-                <li>Angular e ASP.NET Core Web API, Entity Framework Core e ASP.NET Core Identity (Udemy)</li>
-                <li>Azure Boards: gerenciamento de projetos Azure DevOps (Udemy)</li>
-                <li>MongoDB 2023 [NoSQL do Básico ao Avançado!] (Udemy)</li>
-                <li>Git e GitHub do básico ao avançado com gist e GitHub (Udemy)</li>
-                <li>Programação  C# e ASP.NET + SQL - SERVER (FTC)</li>
-                <li>Microsoft PowerBI Especialista (DATAB)</li>
-                <li>Segmentação de Imagens com Python de A a Z  (Udemy)</li>
-                <li>Programação Python 3 - Mundo 1 (Curso em Vídeo)</li>
-                <li>Programação Python para Iniciantes (DATAB)</li>
-                <li>Algoritmos e Lógica de Programação (Curso em Vídeo)</li>
-                <li>Intel Cloud Computing (Intel)</li>
-                <li>Intel Virtualization (Intel)</li>
-                <li>Intel ERP (intel)</li>
-                <li>Programação ADVPL II Protheus (TOTVS)</li>
-                <li>Monitoria Redes de Computadores (FTC)</li>
-                <li>Imersão Mikrotik Unifi (HackOne)</li>
-                <li>D'olho Na Qualidade 5Ss (SEBRAE )</li>
-                <li>Campus Party Bahia (Instituto Campus Party)</li>
-              </ul>
-            </article>
-
-            <article className="about_card">
-              <FaFolderOpen className='about_icon'/>
-              <h5>Projetos Destacados</h5>
-              <small>+10 Concluídos</small>
-              <ul>
-                <li>myCytomine - Sistema para anotação médica e implementação de ferramenta computacional de identificação de fibrose intersticial para o projeto Pathospotter da Fiocruz.</li>
-                <li>myGenerator - Desenvolvimento de um gerador de aplicações MVC/ASP.NET/SQL SERVER.</li>
-                <li>myEnterprise - Desenvolvimento e implantação de um portal corporativo, resultando em aumento de 30% na conversão e significativa melhoria na experiência do usuário.</li>
-                <li>Gênesis - Participação ativa no desenvolvimento do sistema gerencial para laboratórios de análises clínicas</li>
-                <li>TOTVS - Liderança técnica na implantação do ERP WINTHOR, estabelecendo recorde de implantação mais rápida na TOTVS.</li>
-              </ul>
-            </article>
-  {*/}
-            
-
           </div>
-
          
 
         </div>
