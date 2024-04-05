@@ -9,33 +9,36 @@ const Services = () => {
 
       <div className="container services_container">
         
-        <article className='service'>
+
+      <article className='service'>
           <div className="service_head">
             <h3>Consultoria</h3>
           </div>
           <ul className='service_list'>
             <li>
               <CgCheckO className='service_list-icon'/>
-              <p>TOTVS</p>
-            </li>
+              <p>Totvs</p>
+            </li>       
             <li>
               <CgCheckO className='service_list-icon'/>
-              <p>Processos</p>
-            </li>
+              <p>Process Refactoring</p>
+            </li>    
           </ul>
         </article>
-        {/* end web */}
 
         <article className='service'>
           <div className="service_head">
             <h3>Sistemas</h3>
           </div>
-
           <ul className='service_list'>
             <li>
               <CgCheckO className='service_list-icon'/>
               <p>Desenvolvimento de Sistemas</p>
             </li>       
+            <li>
+              <CgCheckO className='service_list-icon'/>
+              <p>Análise de Sistemas</p>
+            </li>    
           </ul>
         </article>
 
@@ -56,10 +59,6 @@ const Services = () => {
               <CgCheckO className='service_list-icon'/>
               <p>Gestão de Projetos</p>
             </li>     
-            <li>
-              <CgCheckO className='service_list-icon'/>
-              <p>Entre em contato</p>
-            </li>            
           </ul>
         </article>
           {/* end web */}

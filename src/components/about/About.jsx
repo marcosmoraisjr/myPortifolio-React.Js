@@ -1,8 +1,8 @@
 import React from 'react'
 import "./About.css"
 import ME from "../../assets/perfil2.jpg"
-import {FaAward} from "react-icons/fa"
-import {FaFolderOpen} from "react-icons/fa"
+//import {FaAward} from "react-icons/fa"
+//import {FaFolderOpen} from "react-icons/fa"
 import CTA from './CTA'
 
 const About = () => {
@@ -23,6 +23,10 @@ const About = () => {
           <div className="about_cards">
             
             <p>
+            🇧🇷 Desenvolvedor especialista em Web, com experiência em C#, ASP.NET e WebForms, além de proficiência em Python, PHP e bancos de dados como SQL Server, Oracle e MongoDB
+            </p>
+            
+            {/*}<p>
               <br />👋🏻 Saudações!
               <br />
               <br />🚀 Eu sou Marcos Morais, apaixonado pela transformação de ideias em soluções tecnológicas impactantes.
@@ -31,6 +35,7 @@ const About = () => {
               <br />🌟 Destaco-me por competências como comunicação eficaz, trabalho em equipe colaborativo e resolução de problemas. Sou proativo, criativo, empático e resiliente, comprometido com a inovação na tecnologia.
               <br />✨ Minha empatia e resiliência permitem-me adaptar-me a diferentes ambientes e situações, enquanto minha gestão eficaz do tempo garante a entrega de projetos dentro do prazo e com qualidade superior. Estou aberto a novas oportunidades de colaboração e empenhado no avanço e inovação na área de tecnologia.          
             </p>
+            {/*}
             
             {/*}Botão baixar CV{*/}
             <CTA/>
