@@ -16,7 +16,7 @@ const Education = () => {
             <article className="education_details">
               <BsPatchCheckFill className='education_details-icon'/>
               <div>
-                <h4>Mestrado em Ciências da Computação (UEFS).</h4>
+                <h4>1. Mestrado em Ciências da Computação (UEFS).</h4>
                 <small className='text-light'>Concluído em 2022</small>
               </div>
             </article>
@@ -24,7 +24,7 @@ const Education = () => {
             <article className="education_details">
               <BsPatchCheckFill className='education_details-icon'/>
               <div>
-                <h4>Pós Graduação em Gestão de TI (UniFTC)</h4>
+                <h4>2. Pós Graduação em Gestão de TI (UniFTC)</h4>
                 <small className='text-light'>Concluído em 2012</small>
               </div>
             </article>           
@@ -32,7 +32,7 @@ const Education = () => {
             <article className="education_details">
               <BsPatchCheckFill className='education_details-icon'/>
               <div>
-                <h4>Bacharelado em Sistemas de Informação (UniFTC)</h4>
+                <h4>3. Bacharelado em Sistemas de Informação (UniFTC)</h4>
                 <small className='text-light'>Concluído em 2010</small>
               </div>
             </article>  
@@ -93,4 +93,4 @@ const Education = () => {
   )
 }
 
-export default education
+export default Education
