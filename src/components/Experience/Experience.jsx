@@ -32,7 +32,7 @@ const Experience = () => {
             <article className="experience_details">
               <BsPatchCheckFill className='experience_details-icon'/>
               <div>
-                <h4>Professor de ensino superior em universidade de tecnologia</h4>
+                <h4>Professor do Ensino Superior</h4>
                 <small className='text-light'>UNIVERSIDADE UNIFTC/UNEX - (2011-2022)</small>
               </div>
             </article>
@@ -64,7 +64,7 @@ const Experience = () => {
             <article className="experience_details">
               <BsPatchCheckFill className='experience_details-icon'/>
               <div>
-                <h4>Software Developer</h4>
+                <h4>Programador de Computador</h4>
                 <small className='text-light'>MEGABYTE SOLUÇÕES EM INFORMÁTICA - (2010-2012)</small>
               </div>
             </article>
@@ -104,7 +104,7 @@ const Experience = () => {
               <BsPatchCheckFill className='experience_details-icon'/>
               <div>
                 <h4>Cytomine</h4>
-                <small className='text-light'>Implantação do sistema para anotação médicas para o projeto Pathospotter da Fiocruz</small>
+                <small className='text-light'>Sistema para anotação médicas para o projeto Pathospotter da Fiocruz</small>
                 <br/><a href="https://pathospotter.bahia.fiocruz.br/" target="_blank" rel="noreferrer">Saiba mais</a>
               </div>
             </article>
@@ -113,7 +113,7 @@ const Experience = () => {
               <BsPatchCheckFill className='experience_details-icon'/>
               <div>
                 <h4>mySegmenter</h4>
-                <small className='text-light'>implementação de ferramenta computacional de identificação de fibrose intersticial para o projeto Pathospotter da Fiocruz</small>
+                <small className='text-light'>Ferramenta computacional de identificação de fibrose intersticial para o projeto Pathospotter da Fiocruz</small>
                 <br/><a href="https://pathospotter.bahia.fiocruz.br/" target="_blank" rel="noreferrer">Saiba mais</a>
               </div>
             </article>
@@ -122,7 +122,7 @@ const Experience = () => {
               <BsPatchCheckFill className='experience_details-icon'/>
               <div>
                 <h4>myGenerator</h4>
-                <small className='text-light'>Desenvolvimento de um gerador de aplicações MVC em ASP.NET/SQL SERVER</small>
+                <small className='text-light'>Gerador de aplicações MVC em ASP.NET/SQL SERVER</small>
               </div>
             </article>
 
@@ -138,7 +138,7 @@ const Experience = () => {
               <BsPatchCheckFill className='experience_details-icon'/>
               <div>
                 <h4>myEnterprise</h4>
-                <small className='text-light'>Desenvolvimento e implantação de um portal corporativo, resultando em aumento de 30% na conversão e significativa melhoria na experiência do usuário</small>
+                <small className='text-light'>Portal corporativo, resultando em aumento de 30% na conversão e significativa melhoria na experiência do usuário</small>
               </div>
             </article>
 
@@ -146,7 +146,7 @@ const Experience = () => {
               <BsPatchCheckFill className='experience_details-icon'/>
               <div>
                 <h4>Gênesis</h4>
-                <small className='text-light'>desenvolvimento do sistema gerencial para laboratórios de análises clínicas</small>
+                <small className='text-light'>Sistema gerencial para laboratórios de análises clínicas</small>
                 <br/><a href="http://www.reffit.com.br/" target="_blank" rel="noreferrer">Saiba mais</a>
               </div>
             </article>
