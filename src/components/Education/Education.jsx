@@ -43,7 +43,7 @@ const Education = () => {
           <ul className='education_list'>
             <li>
               <CgCheckO className='education_list-icon'/>
-              <p>Bacharelado em Sistemas de Informação <br>(UniFTC-2010)</br></p>
+              <p>Bacharelado em Sistemas de Informação (UniFTC-2010)</p>
             </li>       
           </ul>
         </article>
