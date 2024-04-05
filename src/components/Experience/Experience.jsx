@@ -41,7 +41,7 @@ const Experience = () => {
               <BsPatchCheckFill className='experience_details-icon'/>
               <div>
                 <h4>Software Developer (researcher)</h4>
-                <small className='text-light'>UESF/LACAD - (2021-2023)</small>
+                <small className='text-light'>UEFS/LACAD - (2021-2023)</small>
               </div>
             </article>
 
@@ -49,7 +49,7 @@ const Experience = () => {
               <BsPatchCheckFill className='experience_details-icon'/>
               <div>
                 <h4>Software Developer (researcher)</h4>
-                <small className='text-light'>UESF/PATHOSPOTTER  - (2021-2023)</small>
+                <small className='text-light'>UEFS/PATHOSPOTTER  - (2021-2023)</small>
               </div>
             </article>
 
