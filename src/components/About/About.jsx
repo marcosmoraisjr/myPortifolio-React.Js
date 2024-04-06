@@ -5,6 +5,8 @@ import ME from "../../assets/perfil.jpg"
 //import {FaFolderOpen} from "react-icons/fa"
 import CTA from './CTA'
 
+
+
 const About = () => {
   return (
     <section id='about'>
@@ -49,7 +51,8 @@ const About = () => {
             {/*}
             
             {/*}Botão baixar CV{*/}
-            <CTA/>
+            <CTA/> 
+
           </div>
          
 

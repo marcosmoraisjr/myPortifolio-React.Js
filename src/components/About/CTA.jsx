@@ -1,13 +1,26 @@
-import React from 'react'
-import CV from "../../assets/cv.pdf"
+import React from 'react';
 
+// Importa os arquivos PDF do currículo da pasta de ativos
+import cvResumePDF from '../../assets/cv-resume.pdf';
+import cvPDF from '../../assets/cv.pdf';
 
+// Componente de chamada para ação (Call to Action)
 const CTA = () => {
   return (
+    // Div que encapsula as chamadas para ação
     <div className='cta'>
-      <a href={CV} download className='btn btn-primary'>Baixar Curriculo</a>      
+      {/* Botão para baixar o currículo "cv-resume.pdf" */}
+      <a href={cvResumePDF} download className='btn btn-primary' style={{ marginRight: '10px' }}>
+        Baixar Currículo (Resumo)
+      </a>
+      
+      {/* Botão para baixar o currículo "cv.pdf" */}
+      <a href={cvPDF} download className='btn btn-primary'>
+        Baixar Currículo (Completo)
+      </a>
     </div>
-  )
-}
+  );
+};
 
-export default CTA
+// Exporta o componente CTA
+export default CTA;
