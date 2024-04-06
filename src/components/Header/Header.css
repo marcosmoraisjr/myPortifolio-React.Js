@@ -1,3 +1,4 @@
+/* Estilo para a seção de banner */
 .banner {
   margin-top: 0;
   /*padding: 260px 0 100px 0;*/
@@ -5,6 +6,8 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+/* Estilo para a tagline dentro do banner */
 .banner .tagline {
   font-weight: 700;
   letter-spacing: 0.8px;
@@ -16,6 +19,8 @@
   display: inline-block;
   border-radius: 10px;
 }
+
+/* Estilo para o cabeçalho dentro do banner */
 .banner h1 {
   font-size: 30px;
   font-weight: 700;
@@ -25,6 +30,8 @@
   display: block;
   text-align: left;
 }
+
+/* Estilo para o parágrafo dentro do banner */
 .banner p {
   color: #B8B8B8;
   font-size: 18px;
@@ -33,6 +40,8 @@
   width: 96%;
   padding-bottom: 15px;
 }
+
+/* Estilo para o botão dentro do banner */
 .banner button {
   color: #fff;
   font-weight: 700;
@@ -42,47 +51,48 @@
   display: flex;
   align-items: center;
 }
+
+/* Estilo para o ícone SVG dentro do botão no hover */
 .banner button svg {
   font-size: 25px;
   margin-left: 10px;
   transition: 0.3s ease-in-out;
   line-height: 1;
 }
-.banner button:hover svg {
-  margin-left: 25px;
-}
+
+/* Animação para a imagem no banner */
 .banner img {
   animation: updown 3s linear infinite;
 }
 
-.imagem{
- width: 50%;
-}
-
-
+/* Definição da animação updown */
 @keyframes updown {
-    0% {
-        transform: translateY(-20px);
-    }
-    50% {
-        transform: translateY(20px);
-    }
-    100% {
-        transform: translateY(-20px);
-    }
+  0% {
+    transform: translateY(-20px);
+  }
+  50% {
+    transform: translateY(20px);
+  }
+  100% {
+    transform: translateY(-20px);
+  }
 }
+
+/* Estilo para a animação de rotação do texto */
 .txt-rotate > .wrap {
   border-right: 0.08em solid #666;
 }
 
+/* Estilo para a imagem quando a largura da tela for menor ou igual a 1024px */
 @media screen and (max-width: 1024px) {
-  .imagem{
+  .imagem {
     width: 100%;
   }
 }
 
-@media screen and (max-widh:600px){
-  .imagem{
+/* Estilo para a imagem quando a largura da tela for menor ou igual a 600px */
+@media screen and (max-width: 600px) {
+  .imagem {
     width: 100%;
   }
 }
