@@ -1,4 +1,4 @@
-/*import React from 'react'
+import React from 'react'
 import {BsLinkedin} from "react-icons/bs"
 import {FaGithub} from "react-icons/fa"
 import {BsWhatsapp} from "react-icons/bs"
@@ -14,4 +14,4 @@ const HeaderSocial = () => {
   )
 }
 
-export default HeaderSocial*/
+export default HeaderSocial

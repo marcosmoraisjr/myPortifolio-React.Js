@@ -9,7 +9,7 @@ const Header = () => {
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index,setIndex] = useState(1);
-  const toRotate = [ "Desenvolvedor", "Back End", "Asp.Net" ];
+  const toRotate = [ "Marcos Morais", "Full-Stack Developer" ];
   const period = 2000;
 
   useEffect(() => {
@@ -55,7 +55,7 @@ const Header = () => {
           <Col xs={12} md={6} xl={7}>            
               <div>
                 <span className="tagline">Bem Vindo ao meu Portfolio</span>
-                <h1>{`Olá, eu sou um`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Front End Developer", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
+                <h1>{`Saudações, eu sou `} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Marcos Morais", "Full-Stack Developer" ]'><span className="wrap">{text}</span></span></h1>
                   <p>👋🏻 Estou em constante aprendizado, fascinado em contribuir para o desenvolvimento de pessoas, proporcionar melhorias para o mundo tecnológico e adquirir e compartilhar conhecimentos.</p>
               </div>
            
