@@ -18,6 +18,17 @@ const CTA = () => {
       <a href={cvPDF} download className='btn btn-primary'>
         Baixar Currículo (Completo)
       </a>
+
+      {/* Adiciona um estilo específico para dispositivos móveis */}
+      <style>
+        {`
+          @media (max-width: 768px) {
+            .cta a {
+              margin-bottom: 10px; /* Adiciona margem inferior para separar os botões */
+            }
+          }
+        `}
+      </style>
     </div>
   );
 };
